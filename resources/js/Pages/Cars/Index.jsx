@@ -40,7 +40,7 @@ export default function Dashboard(props) {
                             <th className='px-2 py-2'></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody> console.log('test')
                         {props.cars.map((car, i) => (
                                 <tr key={car.id}>
                                 <td className='border border-gray-400 px-2 py-2'>{i + 1}</td>
